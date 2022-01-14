@@ -1,0 +1,11 @@
+{
+  "name": "Hello",
+  "locale": "zh",
+  "data": [
+    {
+      "intent": "greetings.hi",
+      "utterances": ["你好", "嗨", "你好啊"],
+      "answers": ["Yep，我在等你。", "嗯，需要些什么帮助？", "你继续，我在听。"]
+    }
+  ]
+}

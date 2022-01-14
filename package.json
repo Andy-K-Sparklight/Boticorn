@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "dependencies": {
+    "node-nlp": "^4.22.9"
+  },
+  "devDependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "scripts": {
+    "mkc": "node mkcorpus.js",
+    "tr": "node autotrain.js",
+    "try": "node talk.js",
+    "xz": "xz --keep model.nlp"
+  }
+}
