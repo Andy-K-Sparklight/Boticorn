@@ -10,6 +10,10 @@
     "mkc": "node mkcorpus.js",
     "tr": "node autotrain.js",
     "try": "node talk.js",
-    "xz": "xz --keep model.nlp"
+    "st": "yarn tr&&yarn try",
+    "ed": "node setup.js",
+    "gz": "gzip -9 --keep model.min.nlp",
+    "min": "node comp.js",
+    "build": "yarn tr&&yarn min&&yarn gz"
   }
 }

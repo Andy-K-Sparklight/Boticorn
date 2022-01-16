@@ -11,6 +11,7 @@ console.log("Model loaded, now you may talk with the bot.");
 const context = new ConversationContext();
 
 (async () => {
+  await manager.process("zh", "");
   while (true) {
     let { "<<<": res } = await inquirer.prompt([
       { type: "input", name: "<<<" },
