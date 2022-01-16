@@ -104,6 +104,8 @@ dist
 .tern-port
 
 # Output
-model.nlp
-model.min.nlp
-model.min.nlp.gz
+model.json
+model.min.json
+driver.bundle.js
+*.txt
+driver.bundle.js.gz

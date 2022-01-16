@@ -3,9 +3,9 @@ const inquirer = require("inquirer");
 
 const manager = new NlpManager({
   languages: ["zh"],
-  modelFileName: "model.nlp",
+  modelFileName: "model.json",
 });
-manager.load("model.nlp");
+manager.load("model.json");
 console.log("Model loaded, now you may talk with the bot.");
 
 const context = new ConversationContext();

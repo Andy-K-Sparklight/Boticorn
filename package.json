@@ -4,7 +4,11 @@
     "node-nlp": "^4.22.9"
   },
   "devDependencies": {
-    "inquirer": "^8.2.0"
+    "browserify": "^17.0.0",
+    "inquirer": "^8.2.0",
+    "terser": "^5.10.0",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
   },
   "scripts": {
     "mkc": "node mkcorpus.js",
@@ -12,8 +16,9 @@
     "try": "node talk.js",
     "st": "yarn tr&&yarn try",
     "ed": "node setup.js",
-    "gz": "gzip -9 --keep model.min.nlp",
     "min": "node comp.js",
-    "build": "yarn tr&&yarn min&&yarn gz"
+    "wp": "node libclean.js&&yarn webpack --progress",
+    "gz": "gzip -9 driver.bundle.js",
+    "build": "yarn tr&&yarn min&&yarn wp&&yarn gz"
   }
 }

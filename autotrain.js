@@ -2,7 +2,7 @@ const fs = require("fs/promises");
 const path = require("path");
 const { NlpManager } = require("node-nlp");
 
-const FILE_NAME = "model.nlp";
+const FILE_NAME = "model.json";
 (async () => {
   const manager = new NlpManager({
     languages: ["zh"],

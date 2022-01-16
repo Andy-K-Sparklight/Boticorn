@@ -1,5 +1,5 @@
 const fs = require("fs");
 fs.writeFileSync(
-  "model.min.nlp",
-  JSON.stringify(JSON.parse(fs.readFileSync("model.nlp").toString()))
+  "model.min.json",
+  JSON.stringify(JSON.parse(fs.readFileSync("model.json").toString()))
 );
