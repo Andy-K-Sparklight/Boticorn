@@ -19,6 +19,7 @@
     "min": "node comp.js",
     "wp": "node libclean.js&&yarn webpack --progress",
     "gz": "gzip -9 driver.bundle.js",
-    "build": "yarn tr&&yarn min&&yarn wp&&yarn gz"
+    "sha1sum": "sha1sum driver.bundle.js >> driver.bundle.js.sha1sum",
+    "build": "yarn tr&&yarn min&&yarn wp&&yarn sha1sum&&yarn gz"
   }
 }
