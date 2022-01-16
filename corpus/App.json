@@ -1,0 +1,16 @@
+{
+  "name": "App",
+  "locale": "zh",
+  "data": [
+    {
+      "intent": "app.exit",
+      "utterances": [
+        "退出启动器",
+        "关闭启动器"
+      ],
+      "answers": [
+        "AL:Alicorn.exitApp();"
+      ]
+    }
+  ]
+}

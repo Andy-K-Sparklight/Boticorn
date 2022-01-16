@@ -1,0 +1,20 @@
+{
+  "name": "Nonsense",
+  "locale": "zh",
+  "data": [
+    {
+      "intent": "nonsense.loremipsum",
+      "utterances": [
+        "我能吞下玻璃而不伤身体",
+        "锟斤拷烫烫烫",
+        "一只棕色的狐狸敏捷地跳过一只懒惰的狗"
+      ],
+      "answers": [
+        "（你在说什么？）",
+        "我可不会 Lorem Ipsum（",
+        "？？？",
+        "我不理解……"
+      ]
+    }
+  ]
+}
