@@ -1,6 +1,10 @@
 {
   "private": true,
   "dependencies": {
+    "@nlpjs/core-loader": "^4.22.7",
+    "@nlpjs/qna-importer": "^4.22.7",
+    "chalk": "^5.0.0",
+    "crypto-js": "^4.1.1",
     "node-nlp": "^4.22.9"
   },
   "devDependencies": {
@@ -18,8 +22,9 @@
     "ed": "node setup.js",
     "min": "node comp.js",
     "wp": "node libclean.js&&yarn webpack --progress",
-    "gz": "gzip -9 driver.bundle.js",
+    "gz": "gzip -9 --keep driver.bundle.js",
     "sha1sum": "sha1sum driver.bundle.js >> driver.bundle.js.sha1sum",
-    "build": "yarn tr&&yarn min&&yarn wp&&yarn sha1sum&&yarn gz"
+    "build": "yarn tr&&yarn min&&yarn wp&&yarn sha1sum&&yarn gz",
+    "xx": "node srt2qna.js"
   }
 }

@@ -110,3 +110,4 @@ driver.bundle.js
 *.txt
 driver.bundle.js.gz
 *.sha1sum
+wd

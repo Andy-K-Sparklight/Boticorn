@@ -513,6 +513,11 @@
     "@nlpjs/neural" "^4.22.7"
     "@nlpjs/similarity" "^4.22.7"
 
+"@nlpjs/qna-importer@^4.22.7":
+  version "4.22.7"
+  resolved "https://registry.yarnpkg.com/@nlpjs/qna-importer/-/qna-importer-4.22.7.tgz#f5b42f65b73d89b70317a336dc15921830c45616"
+  integrity sha512-eFbH5ATgoZNSVkl4jOWjFXYaP1XylQHJw2J36y63hcGR5xwX2QcWzkG/YeGjga6OBgbCl3DbqT4vwkb3K/S59Q==
+
 "@nlpjs/request@^4.22.7":
   version "4.22.7"
   resolved "https://registry.yarnpkg.com/@nlpjs/request/-/request-4.22.7.tgz#5b0706520df4442cf2fc998ffbc0b8c45e23173e"
@@ -1112,6 +1117,11 @@ chalk@^4.1.0, chalk@^4.1.1:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
+chalk@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.0.0.tgz#bd96c6bb8e02b96e08c0c3ee2a9d90e050c7b832"
+  integrity sha512-/duVOqst+luxCQRKEo4bNxinsOQtMP80ZYm7mMqzuh5PociNL0PvmHFvREJ9ueYL2TxlHjBcmLCdmocx9Vg+IQ==
+
 chardet@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
@@ -1302,6 +1312,11 @@ crypto-browserify@^3.0.0:
     public-encrypt "^4.0.0"
     randombytes "^2.0.0"
     randomfill "^1.0.3"
+
+crypto-js@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.1.1.tgz#9e485bcf03521041bd85844786b83fb7619736cf"
+  integrity sha512-o2JlM7ydqd3Qk9CA0L4NL6mTzU2sdx96a+oOfPu8Mkl/PK51vSyoi8/rQ8NknZtk44vq15lmhAj9CIAGwgeWKw==
 
 dash-ast@^1.0.0:
   version "1.0.0"
