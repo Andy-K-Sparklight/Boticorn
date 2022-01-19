@@ -50,8 +50,11 @@ import("chalk").then((chalk) => {
     }
     console.log("");
     console.log("1> " + cline);
-    console.log(chalk.default.gray("2: " + strs[0]));
-    console.log(chalk.default.gray("3: " + strs[1]));
+    for (let i = 0; i < 10; i++) {
+      if (strs[i]) {
+        console.log(chalk.default.gray(i + 2 + ": " + strs[i]));
+      }
+    }
   }
 
   function buildJSON(lines) {
